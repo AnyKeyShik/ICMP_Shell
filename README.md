@@ -34,3 +34,9 @@ For turn it off:
 ```
 sudo rmmod icmp_shell.ko
 ```
+
+For send payload:
+```
+sudo ./client.py <IP address> <payload>
+```
+`sudo` required for `scapy`
